@@ -1,0 +1,22 @@
+h1{
+	font-family: "Handjet";
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+p{
+	text-align: justify;
+	text-indent: 24px;
+	line-height: 24px;
+	margin: 0px;
+}
+
+h2{
+	text-transform: capitalize;
+}
+
+.tolls{
+	width: 300px;
+	float: right;
+}

@@ -1,0 +1,53 @@
+body{
+	background-size: cover;
+	background-image: url(https://img2.akspic.ru/previews/4/1/7/4/14714/14714-tuman-fon-dymka-tekstura-atmosfera-550x310.jpg);
+}
+p{
+	color:#213150;
+	font-size: 50px;
+}
+
+.p0{
+	text-align: center;
+	font-family:"Handjet" ;
+	text-shadow: 2px 2px whitesmoke;
+	text-decoration: underline;
+	text-underline-position: under;
+	font-weight: 700;
+}
+
+.p1{
+	text-align: center;
+	font-family:"Bungee Spice" ;
+	text-shadow: 2px 2px whitesmoke;
+	text-decoration: underline;
+	text-underline-position: under;
+	font-weight: 700;
+}
+
+ul{
+	font-size: 24px;
+	color: #404040;
+}
+
+/*ul li:: marker*/
+
+.web li::marker{
+/*	margin-right: 120px;*/
+	color: green;
+}
+ul, ol{
+	font-size: 24px;
+	list-style-position: outside;
+	margin-left: 25px;
+}
+
+@counter-style blacknwhite {
+  system: cyclic;
+  symbols: ◆ ◇;
+  suffix: " ";
+}
+
+ul {
+  list-style: blacknwhite;
+}

@@ -1,0 +1,42 @@
+body{
+	background-color: lightpink;
+}
+
+p{
+	font-size: 50px;
+	color: steelblue;
+	text-align: center;
+	font-family:"Raleway";
+}
+
+table{
+	border: double 5px fuchsia;
+	font-size: 24px;
+	width: 50%;
+	border-collapse: separate;
+	margin: auto;
+}
+
+th,td{
+	border: solid 2px blue;
+}
+
+tr:hover{
+	background-color: darkgrey;
+}
+
+td:hover{
+	text-align: center;
+	background-image: url(https://media4.giphy.com/headers/jmckeehen/s2wy7iphPP98.gif);
+	background-size: cover;
+	text-transform: uppercase;
+	font-weight: 700;
+	background: linear-gradient(lightskyblue fuchsia violet blue aqua);
+}
+tr:nth-child(odd){
+	background-color: lightskyblue;
+}
+
+tr:nth-child(even){
+	background-color: lightgreen;
+}

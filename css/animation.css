@@ -1,0 +1,38 @@
+body{
+	background-color: lightcoral;
+}
+
+p{
+	font-size: 24px;
+	color: purple;
+	text-align:  center;
+
+}
+
+marquee{
+	font-size: 50px;
+}
+
+div{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	animation-name: ex;
+	animation-duration: 5s;
+	position: relative;
+	animation-direction: alternate-reverse;
+}
+@keyframes ex{
+	/*0% { background-color: black; left: 0px top opx}
+	25% { background-color:white; }
+	50% { background-color:yellow; }
+	75% { background-color:hotpink; }
+	100% { background-color:red; }
+	*/
+	0% {background-color: black; left:0px; top:0px;}
+	25% {background-color: hotpink; left:300px; top:0px;}	
+	50% {background-color: pink; left:300px; top:300px;}
+	75% {background-color: lightpink; left:0px; top:300px;}
+	100% {background-color: white; left:0px; top:0px;}
+}
+}

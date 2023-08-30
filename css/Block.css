@@ -1,0 +1,66 @@
+body{
+	background-color: black;
+}
+
+p{
+	font-size: 24px;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+}
+
+span{
+	border: dashed 3px hotpink;
+	display: block;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+	border: dotted 5px ivory;
+	margin: 20px;
+	color: ivory;
+	font-size: 24px;
+}
+
+a:hover{
+	border: double 5px orchid;
+	color: greenyellow;
+	background-color: royalblue;
+	box-shadow: 5px -5px royalblue;
+}
+
+.b1{
+	width: 150px;
+	height: 100px;
+	border: ridge 5px orchid;
+	color:  greenyellow;
+	background-color: hotpink;
+	box-shadow: 5px -5px pink;
+}
+
+.b2{
+	width: 150px;
+	height: 100px;
+	border: ridge 5px orchid;
+	color:  greenyellow;
+	background-color: hotpink;
+	box-shadow: 5px -5px pink;
+}
+
+.b3{
+	width: 150px;
+	height: 100px;
+	border: ridge 5px orchid;
+	color:  greenyellow;
+	background-color: hotpink;
+	box-shadow: 5px -5px pink;
+	padding: 20px;
+}
